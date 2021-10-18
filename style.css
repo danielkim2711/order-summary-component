@@ -26,7 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Red Hat Display', sans-serif;
-  height: 100vh;
+  height: 900px;
   justify-content: center;
   margin: 0;
 }
@@ -81,7 +81,7 @@ body {
 
 .plan-container a {
   font-weight: 900;
-  margin: 0 1rem 0 2.5rem;
+  margin: 0 1rem 0 2rem;
 }
 
 .plan-container a:hover {
@@ -151,4 +151,56 @@ p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1440px) {
+  /* Body */
+
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+
+  /* Order Summary Component */
+
+  .order-summary-container {
+    width: 500px;
+    height: 800px;
+  }
+
+  .order-summary-container .order-summary-title {
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+  }
+
+  .order-summary-container .order-summary-description {
+    margin-bottom: 1rem;
+    line-height: 1.75;
+    width: 30ch;
+  }
+
+  /* Annual Plan Card Component */
+
+  .plan-container {
+    width: 400px;
+  }
+
+  .plan-container a {
+    margin: 0 2rem 0 7rem;
+  }
+
+  .plan-container img {
+    left: 20px;
+  }
+
+  /* Payment Button */
+
+  .payment {
+    width: 400px;
+  }
+
+  /* Cancel Button */
+
+  .cancel-order {
+    margin-bottom: 4rem;
+  }
 }
