@@ -38,6 +38,40 @@ body {
   border: 1px solid red;
 }
 
+.container .summary-description {
+  font-size: 16px;
+  margin-bottom: 2rem;
+  line-height: 2;
+  width: 25ch;
+}
+
+.plan-container {
+  border-radius: 10px;
+  position: relative;
+  background-color: hsl(225, 100%, 98%);
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: left;
+}
+
+.plan-text-container h2,
+p {
+  margin: 0;
+}
+
+.plan-container a {
+  margin: 0 1rem;
+}
+
+.plan-container img {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+
 /* Footer */
 
 .attribution {
