@@ -4,6 +4,7 @@
   --bright-blue: hsl(245, 75%, 52%);
   --dark-blue: hsl(223, 47%, 23%);
   --desaturated-blue: hsl(224, 23%, 55%);
+  --light-bright-blue: hsl(245, 75%, 70%);
   --pale-blue: hsl(225, 100%, 94%);
   --very-pale-blue: hsl(225, 100%, 98%);
 }
@@ -52,7 +53,7 @@ body {
 .order-summary-container .order-summary-title {
   font-size: 26px;
   font-weight: 900;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   margin-top: 0;
 }
 
@@ -79,8 +80,13 @@ body {
 }
 
 .plan-container a {
-  font-weight: 700;
+  font-weight: 900;
   margin: 0 1rem 0 2.5rem;
+}
+
+.plan-container a:hover {
+  color: var(--light-bright-blue);
+  text-decoration: none;
 }
 
 .plan-container img {
@@ -117,12 +123,22 @@ p {
   width: 300px;
 }
 
+.payment:hover {
+  background-color: var(--light-bright-blue);
+  cursor: pointer;
+}
+
 /* Cancel Button */
 
 .cancel-order {
   color: var(--desaturated-blue);
   font-weight: 900;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+.cancel-order:hover {
+  color: var(--dark-blue);
+  cursor: pointer;
 }
 
 /* Footer */
