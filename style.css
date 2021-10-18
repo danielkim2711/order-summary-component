@@ -72,6 +72,19 @@ p {
   left: 15px;
 }
 
+.payment {
+  margin: 2rem 0;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  color: #fff;
+  padding: 1rem;
+  width: 300px;
+}
+
+.cancel-order {
+  margin-bottom: 2rem;
+}
+
 /* Footer */
 
 .attribution {
